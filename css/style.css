@@ -23,12 +23,13 @@ nav li{
 }
 nav a{
     text-decoration: none;
+    color: black;
+    font-size: 18px;
 } 
 .navdx {
     display: inline-block;
     position: absolute;
     right: 10px;
-    
     margin-right: 30px;
 }
 .navsx{
@@ -42,4 +43,37 @@ nav a{
     text-align: center;
     line-height: 30px;
     cursor: pointer;
+}
+.jumbotron{
+    height: 800px;
+    width: 100%;
+    background-color: #B4D0E7;
+}
+.jumbocontainer{
+    padding: 50px;
+}
+.titolojumbo{
+    margin: 40px 20px;
+    font-size: 70px;
+    line-height: 108px;
+}
+.textdx{
+    width: 30%;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 12px;
+}
+.btn-grande{
+    background-color: #3B85FF;
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.sezannulla{
+    font-size: 18px;
 }
