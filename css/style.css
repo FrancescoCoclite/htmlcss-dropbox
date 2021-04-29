@@ -162,3 +162,23 @@ hr{
     float: right;
     margin-right: 40px;
 }
+.persone{
+    float: left;
+}
+.descriz{
+    margin-left: 60%;
+    font-size: 20px;
+    line-height: 50px; 
+}
+.btn-bianco{
+    background-color: white;
+    display: inline-block;
+    width: 250px;
+    padding: 0px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1px solid black;
+}
