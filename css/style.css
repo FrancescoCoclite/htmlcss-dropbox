@@ -10,8 +10,8 @@ header{
  border: 1px solid lightgray; 
  position: fixed;
  z-index: 9999999;
+ 
 }
-
 #logo{
     vertical-align: middle;
     height: 30px;
@@ -57,6 +57,8 @@ nav a{
     margin: 40px 20px;
     font-size: 70px;
     line-height: 100px;
+    font-stretch: ultra-condensed;
+    font-weight: 800;
 }
 .textdx{
     width: 30%;
@@ -107,9 +109,9 @@ h3{
 }
 
 .colonna{
-    height: 600px;  /*  va tolta */
+    height: 850px;  /*  va tolta */
     width: 30%;
-    background-color: blue;
+    background-color: white;
     float: left;
     border: 2px solid lightgray;
 }
@@ -129,11 +131,17 @@ h3{
 }
 .stato{
     line-height: 40px;
-    padding: 20px;
+    padding: 40px;
     font-size: 30px;
 }
 .descrizione{
     display: block;
-    padding: 20px;
+    padding: 10px 40px;
     line-height: 40px;
+}
+.bottone-colonna{
+    padding: px;
+}
+hr{
+    margin-right: 150px;
 }
