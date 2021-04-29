@@ -54,6 +54,7 @@ nav a{
     padding: 50px;
 }
 .titolojumbo{
+    font-family: 'Questrial', sans-serif;
     margin: 40px 20px;
     font-size: 70px;
     line-height: 100px;
@@ -91,12 +92,12 @@ nav a{
     width: 70%;
     position: relative;
     left: 440px;
-    bottom: 380px;
+    bottom: 400px;
 } 
 .container{
     margin: 20px auto;
     width: 1170px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 h3{
     font-size:55px;
@@ -109,8 +110,8 @@ h3{
 }
 
 .colonna{
-    height: 850px;  /*  va tolta */
-    width: 30%;
+    /* height: 850px;   va tolta */
+    width: 32%;
     background-color: white;
     float: left;
     border: 2px solid lightgray;
@@ -139,9 +140,25 @@ h3{
     padding: 10px 40px;
     line-height: 40px;
 }
-.bottone-colonna{
-    padding: px;
-}
 hr{
     margin-right: 150px;
+}
+.sezione-ori{
+    margin-top: 0;
+    height: 250px;
+    width: 100%;
+    border: 2px solid lightgray;
+}
+.desc-ori{
+    float: left;
+    font-size: 24px;
+    line-height: 50px;
+    padding: 30px;
+}
+.par-ori{
+    font-size: 16px;
+}
+.btn-ori{
+    float: right;
+    margin-right: 40px;
 }
