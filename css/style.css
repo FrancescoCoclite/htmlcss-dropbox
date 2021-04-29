@@ -9,6 +9,7 @@ header{
  background-color:white;
  border: 1px solid lightgray; 
  position: fixed;
+ z-index: 9999999;
 }
 
 #logo{
@@ -45,7 +46,7 @@ nav a{
     cursor: pointer;
 }
 .jumbotron{
-    height: 800px;
+    height: 700px;
     width: 100%;
     background-color: #B4D0E7;
 }
@@ -86,8 +87,53 @@ nav a{
 }   
 .jumbo-img{
     width: 70%;
-    float: right;
     position: relative;
-    left: 40px;
-    bottom: 320px;
+    left: 440px;
+    bottom: 380px;
 } 
+.container{
+    margin: 20px auto;
+    width: 1170px;
+    margin-top: 150px;
+}
+h3{
+    font-size:55px;
+}
+.fatturare{
+    font-size: 20px;
+    line-height: 90px;
+    margin: 10px;
+
+}
+
+.colonna{
+    height: 600px;  /*  va tolta */
+    width: 30%;
+    background-color: blue;
+    float: left;
+    border: 2px solid lightgray;
+}
+.clearfix::after{
+    display: table;
+    clear: both;
+    content: '';
+}
+.main{
+    margin: 0 20px;
+}
+.iconcina{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 2px solid lightgray;
+}
+.stato{
+    line-height: 40px;
+    padding: 20px;
+    font-size: 30px;
+}
+.descrizione{
+    display: block;
+    padding: 20px;
+    line-height: 40px;
+}
