@@ -140,7 +140,7 @@ h3{
     line-height: 40px;
 }
 hr{
-    margin-right: 150px;
+    margin-right: 250px;
 }
 .check li{
     display: block;
@@ -224,7 +224,7 @@ hr{
 .special{
 /* float: left; */
 }
- .plus p{ 
+.plus p{ 
     line-height: 30px;
     font-size: 23px;
 }
@@ -237,26 +237,21 @@ hr{
 }
 .pre-footer{
     width: 100%;
-    height: 400px;
-    background-color: red;
+    
 }
 .colonna-qua{
     float: left;
-    height: 400px;
+    height: 450px;
     width: calc(100% / 3);
-    border: 1px solid black;
-    background-color: blue;
 }
 .quadrati{
     background-color: brown;
     width: 50%;
     height: 50%;
     float: left;
-    border: 1px solid black;
 }
 .verde{
     background-color: #A2D39B;
-    font-size: 30px;
 }
 .porpora{
     background-color: #61082B;
@@ -267,10 +262,57 @@ hr{
 .rosso{
     background-color: red;
 }
+.ciano{
+    background-color: #B4D0E7;
+}
+.giallo{
+    background-color: #FFD830;
+}
+.blu{
+    background-color: #0D2481;
+}
 .loghi-quadrati{
     height: 100%;
     width: 100%;
     padding: 70px;
     filter: invert(1);
+}
+.main-qua img{
+    width: 150px;
+    margin: 60px 0px 0px 40px ;
+}
+.main-qua p{
+    font-size: 20px;
+    line-height: 27px;
+    margin: 30px 40px;
+}
+.sezione-colorata{
+    width: 100%;
+    height: 300px;
+    background-color: #B4D0E7;
+    padding-right: 20px;
+    position: relative;
+}
+.nuovo-bianco{
+    background-color: white;
+    display: inline-block;
+    width: 400px;
+    padding:10px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black;
+    position: absolute;
+    right:20%;
+    top: 35%;
+}
+.sezione-colorata h4{
+    font-size: 45px;
+    width: 41%;
+    padding-top: 90px;
+    padding-left: 10%;
+    color: #61082B;
+    
 
 }
