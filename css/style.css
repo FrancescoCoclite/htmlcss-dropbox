@@ -14,12 +14,11 @@ header{
 }
 #logo{
     vertical-align: middle;
-    height: 30px;
+    height:25px;
 }
 nav li{
     display: inline-block;
     line-height: 70px;
-    vertical-align: middle;
     margin: 0 10px;
 }
 nav a{
@@ -163,18 +162,29 @@ hr{
     margin-right: 40px;
 }
 .persone{
-    float: left;
+    display: inline-block;
+    width: 50%;
+    vertical-align:top;
 }
 .descriz{
-    margin-left: 60%;
+    display: inline-block;
+    width: 40%;
+    padding: 60px;
+    margin-left: 40px;
+    
+}
+.descriz h3{
+    font-size: 30px;
+    line-height: 40px;
+}
+.descriz p{
     font-size: 20px;
-    line-height: 50px; 
 }
 .btn-bianco{
     background-color: white;
     display: inline-block;
     width: 250px;
-    padding: 0px;
+    padding: 10px;
     color: black;
     font-size: 20px;
     text-align: center;
