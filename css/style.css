@@ -192,3 +192,37 @@ hr{
     margin-top: 20px;
     border: 1px solid black;
 }
+.dropbuisness-plus{
+    width: 100%;
+}
+.plus{
+    height: 2000px;
+    width: 32%;
+    float: left;
+    display: inline-block;
+    padding: 0;
+}
+.newmain{
+    margin: 0 23px;
+}
+.dimensioni{
+    width: 100%;
+}
+
+.plus{
+    padding: 20px;
+}
+.plus h3{
+    line-height: 35px;
+    font-size: 30px;
+}
+.plus p{ 
+    line-height: 30px;
+    font-size: 20px;
+}
+.dimensioni-extra{
+    padding-top: 70px;
+}
+.extra{
+    margin-top: 25px;
+}
