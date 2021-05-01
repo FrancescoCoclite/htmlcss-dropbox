@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Questrial', sans-serif;
+}
 header{
  height: 70px;
  width: 100%;
@@ -53,9 +56,9 @@ nav a{
     padding: 50px;
 }
 .titolojumbo{
-    font-family: 'Questrial', sans-serif;
+    letter-spacing: -5px;
     margin: 40px 20px;
-    font-size: 70px;
+    font-size: 78px;
     line-height: 100px;
     font-stretch: ultra-condensed;
     font-weight: 800;
@@ -91,7 +94,7 @@ nav a{
     width: 70%;
     position: relative;
     left: 440px;
-    bottom: 400px;
+    bottom: 430px;
 } 
 .container{
     margin: 20px auto;
@@ -225,8 +228,8 @@ hr{
 /* float: left; */
 }
 .plus p{ 
-    line-height: 30px;
-    font-size: 23px;
+    line-height: 32px;
+    font-size: 18px;
 }
 .pre-quadrati h4{
     width: 50%;
