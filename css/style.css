@@ -150,6 +150,7 @@ hr{
 }
 .check li::before{
     content: "\2713";
+    color: blue;
 }
 .sezione-ori{
     margin-top: 0;
@@ -316,6 +317,21 @@ hr{
     padding-top: 90px;
     padding-left: 10%;
     color: #61082B;
-    
-
 }
+.fin h4{
+ font-size: 18px;
+ line-height: 90px;
+ border-bottom: 2px solid lightgray;
+ position: relative;
+}
+.fin h2{
+ font-size: 40px;
+ line-height: 100px;
+ border-bottom: 2px solid lightgray;
+}
+#freccia{
+    position: relative;
+    top: -70px;
+    left: 90%;
+    font-size: 25px;
+    font-weight: 600;
