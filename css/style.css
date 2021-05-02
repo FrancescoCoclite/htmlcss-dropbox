@@ -335,3 +335,40 @@ hr{
     left: 90%;
     font-size: 25px;
     font-weight: 600;
+}
+footer{
+    height: 600px;
+    width: 100%;
+    background-color: #000000;
+}
+.colonne-fot{
+    width: calc(100% / 5 - 10px);
+    height: 300px;
+    float: left;
+    margin: 100px 4px 40px 0px;
+    padding: 20px;
+    color: white;
+}
+.colonne-fot li{
+    font-size: 16px;
+    line-height: 35px;
+    list-style: none;
+}
+.colonne-fot a{
+    text-decoration: none;
+    color: white;
+}
+.colonne-fot h4{
+    font-size: 18px;
+    line-height: 40px;
+}
+.lingua{
+    border-top: 2px solid lightgray;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 90px;
+    color: white;
+}
+#freccia-up{
+    font-size: 10px;
+}
