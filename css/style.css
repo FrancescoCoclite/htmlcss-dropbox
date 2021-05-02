@@ -86,7 +86,7 @@ nav a{
 #freccia{
  font-size: 50px;
  position: relative;
- top: 20px;
+ top: 30px;
  text-decoration: none;
  color: black;
 }   
@@ -329,7 +329,7 @@ hr{
  line-height: 100px;
  border-bottom: 2px solid lightgray;
 }
-#freccia{
+#freccia-down{
     position: relative;
     top: -70px;
     left: 90%;
