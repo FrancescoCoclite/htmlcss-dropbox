@@ -15,6 +15,17 @@ header{
  z-index: 9999999;
  
 }
+.navsx li:hover{
+ border-bottom: 2px solid black;
+ line-height: 68px;
+}
+.navdx li:hover{
+    border-bottom: 2px solid black;
+    line-height: 68px;
+}
+.navsx li:hover:first-child{
+    border: none;
+}
 .bonus{
     display: none;
     position: absolute;
